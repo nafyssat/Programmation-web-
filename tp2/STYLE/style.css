@@ -1,0 +1,20 @@
+.container{
+    position: relative;
+}
+
+.visible{
+    display: inline;
+    background-color: blueviolet;
+}
+.hidenn{
+    display: none;
+    background-color: aqua;
+}
+
+.container:hover .visible {
+    display: none;
+}
+
+.container:hover .hidenn {
+    display: inline;
+}

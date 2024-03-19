@@ -1,0 +1,22 @@
+body{
+    background-color: cornflowerblue;
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#content {
+    margin: 20px;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../js/scriptForm.js"></script>
+    <link rel="stylesheet" href="../STYLE/styleForm.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <div id = "form">
+        <h4>Formulaire d'inscription</h4>
+        <form action="" method="post" id=""myform>
+            <ul>
+                <li>
+                    <label for="nafy">civilité : </label>
+                    <select name="nafy" id="nafy">
+                        <option value="Mme">Madame</option>
+                        <option value="M">Monsieur</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label for="nom">Nom : </label>  
+                    <input type="text" name="nom" id="nom">
+                </li>
+                <li>
+                    <label for="prenom">Prenom : </label>  
+                    <input type="text" name="prenom" id="prenom">
+                </li>
+                <li>
+                    <label for="Cnom">Nom Complet : </label>  
+                    <input type="text" name="Cnom" id="Cnom" disabled>
+                </li>
+                <li>
+                    <label for="Anniv">Date de naissance: </label>  
+                    <input type="date" name="Anniv" id="Anniv" min="1924-03-18" max="2024-03-18" >
+                </li>
+                <li>
+                    <label for="JsLevel">Niveau en JS: </label>  
+                    <input type="range" name="JsLevel" id="JsLevel">
+                    <span id="niveau_js_value">50%</span>
+        
+                </li>
+        
+
+                <li>
+                    <label for="color">Couleur préférée: </label>  
+                    <input type="color" name="color" id="color">
+                </li>
+                <li>
+                    <label for="mdp">Mot de passe: </label>  
+                    <input type="password" name="mdp" id="mdp">
+                </li>
+                <li>
+                    <label for="Cmdp">Confirmation de Mot de passe: </label>  
+                    <input type="password" name="Cmdp" id="Cmdp">
+                </li>
+                <li>
+                    <label for="afficher_mot_de_passe" >Afficher le mot de passe</label>
+                    <input type="checkbox" name ="afficher_mot_de_passe" id="afficher_mot_de_passe" >
+                </li>
+                <li>   
+                    <label for="desc">Description: </label>  
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                </li>
+                <li>
+                    <button type="reset" >Réinitialiser</button>
+                    <button type="submit" id="submit">Envoyer</button> 
+                </li>
+           
+
+
+            </ul>
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>

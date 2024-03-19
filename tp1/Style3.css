@@ -1,0 +1,23 @@
+h1{
+
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+        
+
+}
+h2{
+    text-align: center;
+    background-color: aquamarine;
+}
+nav a:link{
+    color: crimson;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

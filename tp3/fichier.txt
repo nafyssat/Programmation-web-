@@ -1,0 +1,18 @@
+Le module fs (pour File System) est un module intégré de Node.js qui fournit des fonctionnalités permettant de travailler avec le système de fichiers de votre système d'exploitation. 
+Il permet d'effectuer des opérations telles que la lecture, l'écriture, la suppression, le déplacement et la modification de fichiers et de répertoires.
+
+Voici quelques-unes des fonctionnalités principales fournies par le module fs :
+
+Lecture et écriture de fichiers : Le module fs permet de lire le contenu 
+d'un fichier de manière synchrone ou asynchrone, ainsi que d'écrire des données dans un fichier.
+
+Opérations sur les répertoires : Vous pouvez créer, supprimer, lister et renommer des répertoires à l'aide des fonctions fournies par le module fs.
+
+Modification de fichiers : Vous pouvez modifier les attributs d'un fichier, comme les permissions, les dates de création et de modification, à l'aide des méthodes du module fs.
+
+Gestion des flux : Le module fs fournit des fonctionnalités pour créer et manipuler des flux de fichiers, ce qui est utile pour les opérations de lecture et d'écriture de gros fichiers de manière efficace.
+
+Opérations de fichier système : Le module fs offre également des fonctionnalités pour effectuer des opérations système de plus bas niveau, telles que la consultation des statistiques de fichiers, la résolution des chemins, etc.
+
+En résumé, le module fs est un outil puissant pour interagir avec le système de fichiers à partir de votre code Node.js, ce qui en fait un composant essentiel pour de nombreuses applications, comme les serveurs web,
+ les outils en ligne de commande, les applications de traitement de fichiers, et bien d'autres.
