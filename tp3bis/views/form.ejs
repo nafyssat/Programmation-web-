@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h3>remplir le formulaire</h3>
+    <p><%= message %></p>
+    <form method="post" action="http://localhost:8080/submit">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" value="<%= nom %>">
+        <br>
+        <label for="motdepasse">Mot de passe :</label>
+        <input type="password" id="motdepasse" name="motDePasse" value="<%= motdepasse %>">
+        <br>
+        <button type="submit">Envoyer</button> 
+        <p id >ok </p>
+    </form>
+    <script>
+        
+    </script>
+</body>
+</html>

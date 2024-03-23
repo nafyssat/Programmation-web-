@@ -1,0 +1,12 @@
+
+Qyestion :
+ici on va modifier le server node fourni dans serveur_A.js.
+
+1-faire en sorte que le serveur envoie un message dans le console a chaque fois qu'il traite une demande 
+2-ajoutez une route avec votre numero etudiant qui produit une page avec un message different des autres 
+3-faite en sorte que votre nom prenom soit affiche sur la page d'acceuil (localhost:8080/welcome)
+4-modifiez le serveur de sorte que uniquement les numero etudiants dans le tableau etudiant du serveur soit accepte comme route dans /etud/... faire afficher un message d'erreur si l'etudiant n'existe pas dans le tableau.
+5-ajoutez une route /etudiants qui produit une page affichant tous les etudiants declare du tableau etud dans une table html .
+6-faire en sorte que les etudiants soit cliquable et renvoits une page par etudiant 
+7-ajouter une route  /ajouter qui produt une page permettant a un utilisateur d'ajouter un etudiant . utilisez un formulaire  ( avec post) et definissez une route correspondante .
+8-ajoutez une page qui permet d'afficher tous les etudiants ayant le meme prenom ( localhost:8080/prenom)

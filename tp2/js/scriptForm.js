@@ -72,6 +72,16 @@ $(document).ready(
             $('#myform').hide(); // Cacher le formulaire
             $('#form').show(); 
 
+            // fetch('localhost:8080', {
+            //     method: 'POST',
+            //     'content-type': "application/json",
+            //     body: {
+            //         nom: $("#nom").val()
+            //     }
+            // }).then(res => res.json())
+            // .then(data => console.log(data))
+            // .catch(err => console.error(err))
+
         })
        
 
